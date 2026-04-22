@@ -1,0 +1,18 @@
+# Выходные файлы сборки
+out/
+*.fodt
+*.docx
+*.html
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kotlin
+build/
+.kotlin/
