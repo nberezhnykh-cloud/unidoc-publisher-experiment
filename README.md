@@ -9,18 +9,31 @@
 
 unidoc-publisher-experiment/
 ├── README.md
+
 ├── build-doc.main.kts           # Kotlin-скрипт сборки
+
 ├── .gitignore
+
 ├── src/
+
 │   ├── index.adoc               # главный документ
+
 │   └── chapters/
+
 │       ├── common_data.adoc
+
 │       ├── work_basis.adoc
+
 │       └── abbreviations.adoc   # ваша таблица с сокращениями
+
 ├── templates/
+
 │   └── template.fodt            # базовый шаблон
+
 ├── out/                         # (игнорируем, будет создаваться при сборке)
+
 └── docs/                        # сюда будем класть результат для GitHub Pages
+
 
 ## Как запустить
 
